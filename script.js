@@ -1,0 +1,8 @@
+function showMessage() {
+  document.getElementById("msg").textContent = "Hello! You clicked the button.";
+}
+
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+  alert("Form submitted successfully!");
+});

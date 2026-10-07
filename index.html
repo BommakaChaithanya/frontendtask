@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend & Backend Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <h1>My Demo Website</h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>This website demonstrates frontend and backend concepts.</p>
+    <button onclick="showMessage()">Click Me</button>
+    <p id="msg"></p>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>The frontend is built with HTML, CSS, and JavaScript. The backend (if added later) can use Node.js or Python to handle data.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 My Demo Website</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
